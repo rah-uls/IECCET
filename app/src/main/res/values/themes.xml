@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.IECCET" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/red.dark</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/red</item>
+    </style>
+
+    <style name="Theme.IECCET" parent="Base.Theme.IECCET" />
+
+    <style name="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorPrimary">@color/red</item>
+    </style>
+    <style name="ieccet" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/design_default_color_primary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/design_default_color_secondary</item>
+    </style>
+</resources>

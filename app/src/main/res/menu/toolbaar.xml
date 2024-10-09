@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/developer"
+        android:title="DEVELOPER"
+        android:icon="@drawable/baseline_developer_mode_24"
+        />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_share_24"
+        android:title="SHARE"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/rating"
+        android:icon="@drawable/baseline_star_border_24"
+        android:title="RATING" />
+</menu>
